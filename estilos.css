@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* ENCABEZADO */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* NAVEGACIÓN */
+nav {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.activo {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+/* SECCIONES */
+.seccion {
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+
+/* TARJETAS DE IMAGEN */
+.imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.card {
+    width: 200px;
+}
+
+.imagen {
+    background-color: #d9d9d9;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 14px;
+}
+
+.card p {
+    background-color: #d9d9d9;
+    margin-top: 10px;
+    height: 20px;
+}
+
+/* CONTACTO */
+.contacto-info {
+    margin: 30px auto;
+    text-align: left;
+    width: fit-content;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.contacto-info a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto-info a:hover {
+    text-decoration: underline;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe57;
+}
+
+.volver-btn {
+    display: inline-block;
+    background-color: #007bff; /* azul */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.volver-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.servicio-detalle {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Título */
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Menú principal */
+.tabs-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs-menu li {
+  position: relative;
+}
+
+.tabs-menu a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tabs-menu a:hover {
+  background-color: #444;
+}
+
+/* Submenú desplegable */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 260px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Mostrar submenú al pasar el mouse */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}}
+
+.dropdown-menu li {
+    padding: 8px 15px;
+    white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f2f2f2;
+}
+
+/* Mostrar el dropdown al pasar el mouse */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
