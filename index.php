@@ -12,9 +12,9 @@
     <!-- Encabezado -->
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="Logo.jpg" alt="Logo">
         </div>
-        <h1>BIENVENIDO JORGE</h1>
+        <h1>BIENVENIDO JORE</h1>
     </header>
 
     <!-- Menú -->
