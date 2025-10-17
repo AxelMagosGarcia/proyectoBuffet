@@ -14,7 +14,7 @@
         <div class="logo">
             <img src="logo.png" alt="Logo">
         </div>
-        <h1>BIENVENIDO</h1>
+        <h1>BIENVENIDO JORGE</h1>
     </header>
 
     <!-- Menú -->
